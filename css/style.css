@@ -178,7 +178,7 @@ section {
     height: 150px;
     margin-right: 15px;
     background-color: #445161;
-    filter: grayscale(80%);
+    filter: sepia(100%);
     transition: 1s linear;
 }
 .screenshots-article:hover .screenshots-article__image {
@@ -344,6 +344,14 @@ section {
     font-size: 16px;
     color: #445162;
     background-color: #ffffff;
+}
+.footer__input[name="name"]:invalid,
+.footer__input[type="email"]:invalid {
+    background-color: rosybrown;
+}
+.footer__input[name="name"]:valid,
+.footer__input[type="email"]:valid {
+    background-color: palegreen;
 }
 .footer__input[name="message"] {
     height: 170px;

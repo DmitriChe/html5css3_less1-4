@@ -314,8 +314,8 @@
                <h2 class="footer__title">Contacts</h2>
                <div class="footer__contacts-wrapper">
                    <form method="post" class="footer__form">
-                       <input class="footer__input" type="text" name="name" placeholder="Your name:" required>
-                       <input class="footer__input" type="email" name="email" placeholder="Your email:" required>
+                       <input class="footer__input" type="text" name="name" placeholder="Your name: Иванов Иван" pattern="^([А-Яа-яA-Za-z]+)(( [А-Яа-яA-Za-z]+)*)$" required>
+                       <input class="footer__input" type="email" name="email" placeholder="Your email: email@mail.ru" pattern="^[A-Za-z0-9_\.-]+@[A-Za-z0-9\.-]+\.[A-Za-z]{2,3}$" required>
                        <input class="footer__input" type="text" name="message" placeholder="Your message:">
                        <input class="footer__input" type="submit" name="submit" value="SEND">
                    </form>
