@@ -97,7 +97,6 @@ section {
     padding: 0;
     height: 345px;
     position: relative;
-    z-index: -100;
 }
 .video__wrapper {
     display: flex;
