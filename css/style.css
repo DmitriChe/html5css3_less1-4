@@ -77,9 +77,11 @@ section {
 .about__image {
     width: 430px;
     height: 245px;
-    background-color: #445161;
+    mix-blend-mode: difference;
 }
-
+.about__image-wrapper:hover {
+    background-color: green;
+}
 .bg-video {
     position: absolute;
     height: 345px;
